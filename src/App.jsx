@@ -56,7 +56,7 @@ function App() {
             <span className="fonte-infantil-magica text-yellow-300 text-sm uppercase tracking-widest mb-1 drop-shadow">
               Você recebeu um
             </span>
-            <h2 className="fonte-infantil-titulo text-white text-2xl font-bold mb-5 drop-shadow-md">
+            <h2 className="fonte-infantil-titulo text-white text-3xl font-black mb-5 drop-shadow-md">
               Convite Especial ✨
             </h2>
 
@@ -106,17 +106,17 @@ function App() {
           <span className="folha folha-5 absolute left-[88%] text-amber-800 text-lg">🍂</span>
         </div>
 
-        {/* BRASÃO VERMELHO DO TOPO */}
-        <div className="absolute top-[5.8%] left-[18%] right-[18%] h-[12.5%] text-center flex flex-col justify-center items-center z-10">
+        {/* BRASÃO VERMELHO DO TOPO (TÍTULO AGATHA FAZ 1 ANO AMPLIADO) */}
+        <div className="absolute top-[5%] left-[14%] right-[14%] h-[14%] text-center flex flex-col justify-center items-center z-10">
           <span className="fonte-infantil-magica text-yellow-200 text-xs sm:text-sm uppercase tracking-wider font-extrabold drop-shadow">
             CONVITE ESPECIAL
           </span>
-          <h1 className="fonte-infantil-titulo text-white font-black text-lg sm:text-2xl leading-tight drop-shadow-md mt-0.5">
+          <h1 className="fonte-infantil-titulo text-white font-black text-2xl sm:text-3xl leading-tight drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] mt-0.5">
             Agatha faz 1 ano
           </h1>
         </div>
 
-        {/* POSICIONAMENTO E FONTE BEM MAIOR NAS PLACAS */}
+        {/* POSICIONAMENTO E FONTE NAS PLACAS */}
         
         {/* Placa 1: Ver Endereço */}
         <button
