@@ -1,19 +1,21 @@
 @import "tailwindcss";
 
-/* Universal Cross-Platform Font Fallbacks */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fredoka:wght@600;700;900&display=swap');
+
+/* Fonte Arredondada Fofa e Legível para o Título */
 .fonte-infantil-titulo {
-  font-family: 'Arial Rounded MT Bold', 'Fredoka', 'Trebuchet MS', 'Segoe UI', system-ui, -apple-system, sans-serif !important;
+  font-family: 'Fredoka', 'Comfortaa', 'Arial Rounded MT Bold', sans-serif !important;
   font-weight: 900 !important;
 }
 
 .fonte-infantil-magica {
-  font-family: 'Trebuchet MS', 'Arial Rounded MT Bold', system-ui, sans-serif !important;
-  font-weight: 800 !important;
+  font-family: 'Fredoka', 'Comfortaa', sans-serif !important;
+  font-weight: 700 !important;
 }
 
 .fonte-infantil-botao {
-  font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', system-ui, -apple-system, sans-serif !important;
-  font-weight: 800 !important;
+  font-family: 'Fredoka', 'Comfortaa', sans-serif !important;
+  font-weight: 900 !important;
 }
 
 /* Modais */
@@ -26,7 +28,7 @@
   animation: scaleUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Folhas Caindo */
+/* Folhas caindo */
 @keyframes cairFolhaCurva {
   0% { top: -10%; transform: translateX(0) rotate(0deg); opacity: 0; }
   15% { opacity: 1; }
