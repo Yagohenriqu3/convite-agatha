@@ -2,21 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Fredoka:wght@600;700&family=Henny+Penny&display=swap');
 
-/* Fontes */
-.fonte-infantil-titulo { font-family: 'Fredoka', cursive, sans-serif; }
-.fonte-infantil-magica { font-family: 'Henny Penny', cursive, sans-serif; }
-.fonte-infantil-botao { font-family: 'Bubblegum Sans', cursive, sans-serif; }
+/* Fontes com fallback forçado */
+.fonte-infantil-titulo {
+  font-family: 'Fredoka', 'Comic Sans MS', cursive, sans-serif !important;
+}
 
-/* Animação para os Modais e Botão Flutuante */
+.fonte-infantil-magica {
+  font-family: 'Henny Penny', 'Comic Sans MS', cursive, sans-serif !important;
+}
+
+.fonte-infantil-botao {
+  font-family: 'Bubblegum Sans', 'Comic Sans MS', cursive, sans-serif !important;
+}
+
+/* Modais */
 @keyframes scaleUp {
-  from {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 .animate-scale-up {
@@ -50,5 +52,3 @@
 .folha-6  { animation-duration: 10s; animation-delay: 4.8s; }
 .folha-7  { animation-duration: 8.5s; animation-delay: 0.8s; }
 .folha-8  { animation-duration: 12s; animation-delay: 7.2s; }
-.folha-9  { animation-duration: 9.5s; animation-delay: 5.1s; }
-.folha-10 { animation-duration: 10.5s; animation-delay: 2.0s; }
