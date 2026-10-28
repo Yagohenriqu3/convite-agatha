@@ -1,25 +1,22 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Fredoka:wght@600;700;900&family=Henny+Penny&display=swap');
-
-/* Fontes com peso extra e legibilidade alta */
+/* Universal Cross-Platform Font Fallbacks */
 .fonte-infantil-titulo {
-  font-family: 'Fredoka', cursive, sans-serif !important;
+  font-family: 'Arial Rounded MT Bold', 'Fredoka', 'Trebuchet MS', 'Segoe UI', system-ui, -apple-system, sans-serif !important;
   font-weight: 900 !important;
 }
 
 .fonte-infantil-magica {
-  font-family: 'Henny Penny', cursive, sans-serif !important;
-  font-weight: 700 !important;
+  font-family: 'Trebuchet MS', 'Arial Rounded MT Bold', system-ui, sans-serif !important;
+  font-weight: 800 !important;
 }
 
 .fonte-infantil-botao {
-  font-family: 'Fredoka', 'Bubblegum Sans', sans-serif !important;
-  font-weight: 900 !important;
-  letter-spacing: 0.02em;
+  font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', system-ui, -apple-system, sans-serif !important;
+  font-weight: 800 !important;
 }
 
-/* Animações */
+/* Modais */
 @keyframes scaleUp {
   from { opacity: 0; transform: scale(0.8); }
   to { opacity: 1; transform: scale(1); }
@@ -29,30 +26,18 @@
   animation: scaleUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Animação para a queda das folhas */
+/* Folhas Caindo */
 @keyframes cairFolhaCurva {
-  0% {
-    top: -10%;
-    transform: translateX(0) rotate(0deg);
-    opacity: 0;
-  }
+  0% { top: -10%; transform: translateX(0) rotate(0deg); opacity: 0; }
   15% { opacity: 1; }
   50% { transform: translateX(25px) rotate(180deg); }
   85% { opacity: 1; }
-  100% {
-    top: 108%;
-    transform: translateX(-15px) rotate(360deg);
-    opacity: 0;
-  }
+  100% { top: 108%; transform: translateX(-15px) rotate(360deg); opacity: 0; }
 }
 
 .folha { animation: cairFolhaCurva linear infinite; }
-
 .folha-1  { animation-duration: 8s;  animation-delay: 0s;   }
 .folha-2  { animation-duration: 11s; animation-delay: 3.5s; }
 .folha-3  { animation-duration: 9s;  animation-delay: 1.2s; }
 .folha-4  { animation-duration: 13s; animation-delay: 6s;   }
 .folha-5  { animation-duration: 7s;  animation-delay: 2.5s; }
-.folha-6  { animation-duration: 10s; animation-delay: 4.8s; }
-.folha-7  { animation-duration: 8.5s; animation-delay: 0.8s; }
-.folha-8  { animation-duration: 12s; animation-delay: 7.2s; }

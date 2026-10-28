@@ -106,14 +106,14 @@ function App() {
           <span className="folha folha-5 absolute left-[88%] text-amber-800 text-lg">🍂</span>
         </div>
 
-        {/* BRASÃO VERMELHO DO TOPO (CENTRALIZADO PERFEITAMENTE) */}
+        {/* BRASÃO VERMELHO DO TOPO (TÍTULO CENTRALIZADO E LEGÍVEL) */}
         <div className="absolute top-[5.5%] left-[6%] right-[6%] h-[15%] text-center flex flex-col justify-center items-center z-10 px-1 pt-1">
           <span className="fonte-infantil-magica text-yellow-300 text-[10px] sm:text-xs uppercase tracking-widest font-black drop-shadow mb-0.5">
             CONVITE ESPECIAL
           </span>
-          <h1 className="fonte-infantil-titulo text-white font-black text-[8.5vw] sm:text-3xl leading-[0.95] drop-shadow-[0_3px_6px_rgba(0,0,0,0.9)] tracking-tight uppercase">
+          <h1 className="fonte-infantil-titulo text-white font-black text-[7.5vw] sm:text-3xl leading-[1] drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] tracking-normal uppercase">
             AGATHA <br />
-            <span className="text-[7vw] sm:text-2xl">FAZ 1 ANO</span>
+            <span className="text-[6vw] sm:text-2xl">FAZ 1 ANO</span>
           </h1>
         </div>
 
