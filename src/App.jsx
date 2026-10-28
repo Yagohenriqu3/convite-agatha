@@ -106,23 +106,23 @@ function App() {
           <span className="folha folha-5 absolute left-[88%] text-amber-800 text-lg">🍂</span>
         </div>
 
-        {/* BRASÃO VERMELHO DO TOPO (TITULO EM 2 LINHAS E CENTRALIZADO NO ESCUDO) */}
-        <div className="absolute top-[6.8%] left-[20%] right-[20%] h-[14%] text-center flex flex-col justify-center items-center z-10 px-1">
-          <span className="fonte-infantil-magica text-yellow-300 text-[9px] sm:text-[11px] uppercase tracking-widest font-black drop-shadow mb-0.5">
+        {/* BRASÃO VERMELHO DO TOPO (TITULO +30% MAIOR EM 2 LINHAS) */}
+        <div className="absolute top-[6.2%] left-[15%] right-[15%] h-[15%] text-center flex flex-col justify-center items-center z-10 px-1">
+          <span className="fonte-infantil-magica text-yellow-300 text-[10px] sm:text-xs uppercase tracking-widest font-black drop-shadow mb-0.5">
             CONVITE ESPECIAL
           </span>
-          <h1 className="fonte-infantil-titulo text-white font-black text-[6.5vw] sm:text-2xl leading-[0.95] drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] tracking-tight uppercase">
+          <h1 className="fonte-infantil-titulo text-white font-black text-[8.5vw] sm:text-3xl leading-[0.92] drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] tracking-tight uppercase">
             AGATHA <br />
-            <span className="text-[5vw] sm:text-xl">FAZ 1 ANO</span>
+            <span className="text-[6.5vw] sm:text-2xl">FAZ 1 ANO</span>
           </h1>
         </div>
 
-        {/* ENCAIXE PRECISO DENTRO DE CADA PLACA DE MADEIRA */}
+        {/* BOTOES NAS PLACAS DE MADEIRA (+30% MAIORES) */}
         
         {/* Placa 1: Ver Endereço */}
         <button
           onClick={() => setModalEndereco(true)}
-          className="fonte-infantil-botao absolute top-[40.8%] right-[7%] w-[42%] h-[7.5%] bg-transparent text-amber-950 text-xs sm:text-sm font-extrabold flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm px-1 text-center"
+          className="fonte-infantil-botao absolute top-[40.2%] right-[5%] w-[46%] h-[8.5%] bg-transparent text-amber-950 text-sm sm:text-base font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm px-1 text-center"
         >
           📍 Ver Endereço
         </button>
@@ -132,7 +132,7 @@ function App() {
           href={linkWhatsapp}
           target="_blank"
           rel="noopener noreferrer"
-          className="fonte-infantil-botao absolute top-[51.2%] right-[6%] w-[44%] h-[7.5%] bg-transparent text-amber-950 text-xs sm:text-sm font-extrabold flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm px-1 text-center"
+          className="fonte-infantil-botao absolute top-[50.8%] right-[4%] w-[48%] h-[8.5%] bg-transparent text-amber-950 text-sm sm:text-base font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm px-1 text-center"
         >
           ✅ Confirmar Presença
         </a>
@@ -140,7 +140,7 @@ function App() {
         {/* Placa 3: Lista de Presentes */}
         <button
           onClick={() => setModalPresentes(true)}
-          className="fonte-infantil-botao absolute top-[61.8%] right-[5%] w-[45%] h-[7.5%] bg-transparent text-amber-950 text-xs sm:text-sm font-extrabold flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm px-1 text-center"
+          className="fonte-infantil-botao absolute top-[61.2%] right-[3%] w-[49%] h-[8.5%] bg-transparent text-amber-950 text-sm sm:text-base font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm px-1 text-center"
         >
           🎁 Lista de Presentes
         </button>
