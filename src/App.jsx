@@ -84,7 +84,7 @@ function App() {
         </button>
       )}
 
-      {/* CONTAINER DO CONVITE (PROPORÇÃO FIXA DA ARTE) */}
+      {/* CONTAINER DO CONVITE */}
       <div 
         className="relative w-full h-full max-w-[450px] aspect-[9/16] bg-cover bg-center shadow-2xl overflow-hidden flex flex-col justify-between"
         style={{ backgroundImage: `url(${bgImage})` }}
@@ -106,22 +106,22 @@ function App() {
           <span className="folha folha-5 absolute left-[88%] text-amber-800 text-lg">🍂</span>
         </div>
 
-        {/* BRASÃO VERMELHO DO TOPO (TEXTO MAIOR E LEGÍVEL) */}
+        {/* BRASÃO VERMELHO DO TOPO */}
         <div className="absolute top-[5.8%] left-[18%] right-[18%] h-[12.5%] text-center flex flex-col justify-center items-center z-10">
-          <span className="fonte-infantil-magica text-yellow-200 text-xs sm:text-sm uppercase tracking-wider font-bold drop-shadow">
-            Convite Especial
+          <span className="fonte-infantil-magica text-yellow-200 text-xs sm:text-sm uppercase tracking-wider font-extrabold drop-shadow">
+            CONVITE ESPECIAL
           </span>
-          <h1 className="fonte-infantil-titulo text-white font-extrabold text-lg sm:text-xl leading-tight drop-shadow-md mt-0.5">
+          <h1 className="fonte-infantil-titulo text-white font-black text-lg sm:text-2xl leading-tight drop-shadow-md mt-0.5">
             Agatha faz 1 ano
           </h1>
         </div>
 
-        {/* POSICIONAMENTO E TAMANHO MAIOR PARA OS BOTÕES DAS PLACAS */}
+        {/* POSICIONAMENTO E FONTE BEM MAIOR NAS PLACAS */}
         
         {/* Placa 1: Ver Endereço */}
         <button
           onClick={() => setModalEndereco(true)}
-          className="fonte-infantil-botao absolute top-[39%] right-[3%] w-[50%] h-[9%] bg-transparent text-amber-950 font-black text-sm sm:text-base flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
+          className="fonte-infantil-botao absolute top-[38.5%] right-[2%] w-[53%] h-[10%] bg-transparent text-amber-950 text-base sm:text-lg flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
         >
           📍 Ver Endereço
         </button>
@@ -131,7 +131,7 @@ function App() {
           href={linkWhatsapp}
           target="_blank"
           rel="noopener noreferrer"
-          className="fonte-infantil-botao absolute top-[49.5%] right-[2%] w-[51%] h-[9%] bg-transparent text-amber-950 font-black text-sm sm:text-base flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
+          className="fonte-infantil-botao absolute top-[49%] right-[1%] w-[54%] h-[10%] bg-transparent text-amber-950 text-base sm:text-lg flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
         >
           ✅ Confirmar Presença
         </a>
@@ -139,7 +139,7 @@ function App() {
         {/* Placa 3: Lista de Presentes */}
         <button
           onClick={() => setModalPresentes(true)}
-          className="fonte-infantil-botao absolute top-[60%] right-[1%] w-[52%] h-[9%] bg-transparent text-amber-950 font-black text-sm sm:text-base flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
+          className="fonte-infantil-botao absolute top-[59.5%] right-[0%] w-[55%] h-[10%] bg-transparent text-amber-950 text-base sm:text-lg flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
         >
           🎁 Lista de Presentes
         </button>
