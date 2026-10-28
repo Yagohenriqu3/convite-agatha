@@ -117,12 +117,12 @@ function App() {
           </h1>
         </div>
 
-        {/* BOTÕES CENTRALIZADOS PERFEITAMENTE NAS PLACAS DE MADEIRA */}
+        {/* BOTÕES COM FONTE 20% MAIOR E CENTRALIZADOS NAS PLACAS */}
         
         {/* Placa 1: Ver Endereço */}
         <button
           onClick={() => setModalEndereco(true)}
-          className="fonte-infantil-botao absolute top-[42.2%] left-[48%] right-[5%] h-[6.5%] bg-transparent text-amber-950 text-sm sm:text-base font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[41.8%] left-[47%] right-[4%] h-[7%] bg-transparent text-amber-950 text-base sm:text-lg font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none text-center"
         >
           📍 Ver Endereço
         </button>
@@ -132,7 +132,7 @@ function App() {
           href={linkWhatsapp}
           target="_blank"
           rel="noopener noreferrer"
-          className="fonte-infantil-botao absolute top-[52.5%] left-[46%] right-[4%] h-[6.5%] bg-transparent text-amber-950 text-xs sm:text-sm font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[52.3%] left-[44%] right-[3%] h-[7%] bg-transparent text-amber-950 text-sm sm:text-base font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none text-center"
         >
           ✅ Confirmar Presença
         </a>
@@ -140,7 +140,7 @@ function App() {
         {/* Placa 3: Lista de Presentes */}
         <button
           onClick={() => setModalPresentes(true)}
-          className="fonte-infantil-botao absolute top-[62.8%] left-[45%] right-[3%] h-[6.5%] bg-transparent text-amber-950 text-xs sm:text-sm font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[62.8%] left-[43%] right-[2%] h-[7%] bg-transparent text-amber-950 text-sm sm:text-base font-black flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none text-center"
         >
           🎁 Lista de Presentes
         </button>
