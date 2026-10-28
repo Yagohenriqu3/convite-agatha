@@ -38,7 +38,7 @@ function App() {
     }
   };
 
-  const telefoneWhatsapp = '5511999999999'; 
+  const telefoneWhatsapp = '5521990366115'; 
   const mensagemWhatsapp = encodeURIComponent('Olá! Gostaria de confirmar minha presença no aniversário de 1 ano da Agatha! 🎉');
   const linkWhatsapp = `https://wa.me/${telefoneWhatsapp}?text=${mensagemWhatsapp}`;
 
@@ -151,8 +151,10 @@ function App() {
             <div className="bg-white rounded-2xl p-6 max-w-xs w-full text-center shadow-2xl border-4 border-amber-400 animate-scale-up">
               <h3 className="fonte-infantil-titulo text-2xl font-bold text-amber-900 mb-2">📍 Local da Festa</h3>
               <p className="text-gray-700 text-base mb-5">
-                <strong>Salão de Festas Mágico</strong><br />
-                Rua das Flores, nº 123 - Bairro Encantado
+                <strong>Salão de Festas Louivis</strong><br />
+                Estr. de Inhoaíba, 93a - Inhoaíba, Rio de Janeiro - RJ, 23063-010
+                
+              <a href="https://maps.app.goo.gl/Fv1hAGzbokfh58rU7">Mapa</a>
               </p>
               <button
                 onClick={() => setModalEndereco(false)}
