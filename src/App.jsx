@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import './App.css';
 
-import bgImage from './assets/download.png';
+import bgImage from './assets/download.jfif';
 import somFloresta from './assets/floresta-magica.mp3';
 
 function App() {
@@ -117,12 +117,12 @@ function App() {
           </h1>
         </div>
 
-        {/* ALINHAMENTO MILIMÉTRICO DOS BOTÕES NO CENTRO DE CADA PLACA (MOBILE) */}
+        {/* BOTÕES CENTRALIZADOS E COM FONTE 30% MAIOR NAS PLACAS */}
         
         {/* Placa 1: Ver Endereço */}
         <button
           onClick={() => setModalEndereco(true)}
-          className="fonte-infantil-botao absolute top-[40.2%] left-[50%] w-[44%] h-[6.5%] bg-transparent text-amber-950 text-xs sm:text-sm font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[39.8%] left-[48%] w-[47%] h-[7.5%] bg-transparent text-amber-950 text-sm sm:text-base font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
         >
           📍 Ver Endereço
         </button>
@@ -132,7 +132,7 @@ function App() {
           href={linkWhatsapp}
           target="_blank"
           rel="noopener noreferrer"
-          className="fonte-infantil-botao absolute top-[50.8%] left-[47%] w-[46%] h-[6.5%] bg-transparent text-amber-950 text-[11px] sm:text-xs font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[50.3%] left-[44%] w-[51%] h-[7.5%] bg-transparent text-amber-950 text-[13.5px] sm:text-sm font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
         >
           ✅ Confirmar Presença
         </a>
@@ -140,7 +140,7 @@ function App() {
         {/* Placa 3: Lista de Presentes */}
         <button
           onClick={() => setModalPresentes(true)}
-          className="fonte-infantil-botao absolute top-[60.4%] left-[46%] w-[47%] h-[6.5%] bg-transparent text-amber-950 text-[11px] sm:text-xs font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[60.0%] left-[43%] w-[51%] h-[7.5%] bg-transparent text-amber-950 text-[13.5px] sm:text-sm font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
         >
           🎁 Lista de Presentes
         </button>
