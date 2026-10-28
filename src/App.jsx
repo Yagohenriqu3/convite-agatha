@@ -156,7 +156,7 @@ function App() {
                 
               
               </p>
-              <p><a href="https://maps.app.goo.gl/Fv1hAGzbokfh58rU7" class='text-blue-600 '>Ver no Mapa</a></p>
+              <p><a href="https://maps.app.goo.gl/Fv1hAGzbokfh58rU7" target='_blank' class='text-blue-600 '>Ver no Mapa</a></p>
               <p> </p>
               <button
                 onClick={() => setModalEndereco(false)}
