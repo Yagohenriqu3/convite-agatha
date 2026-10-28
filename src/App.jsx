@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import './App.css';
 
-import bgImage from './assets/download.jfif';
+import bgImage from './assets/download.png';
 import somFloresta from './assets/floresta-magica.mp3';
 
 function App() {
