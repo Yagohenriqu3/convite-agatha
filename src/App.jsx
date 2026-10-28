@@ -157,6 +157,7 @@ function App() {
               
               </p>
               <p><a href="https://maps.app.goo.gl/Fv1hAGzbokfh58rU7" class='text-blue-600 '>Ver no Mapa</a></p>
+              <p> </p>
               <button
                 onClick={() => setModalEndereco(false)}
                 className="fonte-infantil-botao w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-2.5 text-xl rounded-xl transition"
