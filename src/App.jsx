@@ -111,7 +111,7 @@ function App() {
           <span className="fonte-infantil-magica text-yellow-200 text-xs sm:text-sm uppercase tracking-wider font-extrabold drop-shadow">
             CONVITE ESPECIAL
           </span>
-          <h1 className="fonte-infantil-titulo text-white font-black text-2xl sm:text-3xl leading-tight drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] mt-0.5">
+          <h1 className="fonte-infantil-titulo text-white font-black text-2xl sm:text-[2em] leading-tight drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] mt-0.5">
             Agatha faz 1 ano
           </h1>
         </div>
