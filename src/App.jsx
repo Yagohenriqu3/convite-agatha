@@ -142,7 +142,7 @@ function App() {
           onClick={() => setModalPresentes(true)}
           className="fonte-infantil-botao absolute top-[60.0%] left-[43%] w-[51%] h-[7.5%] bg-transparent text-amber-950 text-[13.5px] sm:text-sm font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
         >
-          🎁 Lista de Presentes
+          🎁 Sugestão de Presentes
         </button>
 
         {/* MODAL DE ENDEREÇO */}
@@ -154,8 +154,9 @@ function App() {
                 <strong>Salão de Festas Louivis</strong><br />
                 Estr. de Inhoaíba, 93a - Inhoaíba, Rio de Janeiro - RJ, 23063-010
                 
-              <a href="https://maps.app.goo.gl/Fv1hAGzbokfh58rU7">Mapa</a>
+              
               </p>
+              <p><a href="https://maps.app.goo.gl/Fv1hAGzbokfh58rU7" class='text-blue-600 '>Ver no Mapa</a></p>
               <button
                 onClick={() => setModalEndereco(false)}
                 className="fonte-infantil-botao w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-2.5 text-xl rounded-xl transition"
