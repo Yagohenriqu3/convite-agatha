@@ -53,7 +53,7 @@ function App() {
           saindo ? 'opacity-0 scale-110 pointer-events-none' : 'opacity-100 scale-100'
         }`}>
           <div className="bg-amber-950/90 border-2 border-amber-400/60 rounded-3xl p-6 max-w-xs w-full text-center shadow-2xl backdrop-blur-lg flex flex-col items-center">
-            <span className="fonte-infantil-magica text-yellow-300 text-xs uppercase tracking-widest mb-1 drop-shadow">
+            <span className="fonte-infantil-magica text-yellow-300 text-sm uppercase tracking-widest mb-1 drop-shadow">
               Você recebeu um
             </span>
             <h2 className="fonte-infantil-titulo text-white text-2xl font-bold mb-5 drop-shadow-md">
@@ -62,11 +62,11 @@ function App() {
 
             <button
               onClick={iniciarConvite}
-              className="fonte-infantil-botao bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg transition-all active:scale-95 animate-bounce border-2 border-amber-300 cursor-pointer"
+              className="fonte-infantil-botao bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white text-xl font-bold py-3.5 px-8 rounded-full shadow-lg transition-all active:scale-95 animate-bounce border-2 border-amber-300 cursor-pointer"
             >
               ▶️ Entrar no Convite
             </button>
-            <p className="fonte-infantil-magica text-amber-200/80 text-[11px] mt-3">
+            <p className="fonte-infantil-magica text-amber-200/80 text-xs mt-3">
               Clique para ligar a música e abrir 🎵
             </p>
           </div>
@@ -77,7 +77,7 @@ function App() {
       {conviteAberto && (
         <button
           onClick={toggleAudio}
-          className="fixed top-3 right-3 z-40 bg-amber-500/90 hover:bg-amber-600 text-white p-2 rounded-full shadow-lg transition-transform active:scale-90 border-2 border-amber-300 cursor-pointer"
+          className="fixed top-3 right-3 z-40 bg-amber-500/90 hover:bg-amber-600 text-white p-2.5 rounded-full shadow-lg transition-transform active:scale-90 border-2 border-amber-300 cursor-pointer"
           title={tocando ? "Pausar som" : "Tocar som"}
         >
           {tocando ? '🔊' : '🔇'}
@@ -106,22 +106,22 @@ function App() {
           <span className="folha folha-5 absolute left-[88%] text-amber-800 text-lg">🍂</span>
         </div>
 
-        {/* BRASÃO VERMELHO DO TOPO */}
-        <div className="absolute top-[6%] left-[22%] right-[22%] h-[12%] text-center flex flex-col justify-center items-center z-10">
-          <span className="fonte-infantil-magica text-yellow-200 text-[11px] sm:text-xs uppercase tracking-wider font-semibold drop-shadow">
+        {/* BRASÃO VERMELHO DO TOPO (TEXTO MAIOR E LEGÍVEL) */}
+        <div className="absolute top-[5.8%] left-[18%] right-[18%] h-[12.5%] text-center flex flex-col justify-center items-center z-10">
+          <span className="fonte-infantil-magica text-yellow-200 text-xs sm:text-sm uppercase tracking-wider font-bold drop-shadow">
             Convite Especial
           </span>
-          <h1 className="fonte-infantil-titulo text-white font-bold text-base sm:text-lg leading-tight drop-shadow-md">
+          <h1 className="fonte-infantil-titulo text-white font-extrabold text-lg sm:text-xl leading-tight drop-shadow-md mt-0.5">
             Agatha faz 1 ano
           </h1>
         </div>
 
-        {/* POSICIONAMENTO INDIVIDUAL PARA CADA PLACA DE MADEIRA */}
+        {/* POSICIONAMENTO E TAMANHO MAIOR PARA OS BOTÕES DAS PLACAS */}
         
         {/* Placa 1: Ver Endereço */}
         <button
           onClick={() => setModalEndereco(true)}
-          className="fonte-infantil-botao absolute top-[39.5%] right-[4%] w-[48%] h-[8%] bg-transparent text-amber-950 font-extrabold text-xs sm:text-sm flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10"
+          className="fonte-infantil-botao absolute top-[39%] right-[3%] w-[50%] h-[9%] bg-transparent text-amber-950 font-black text-sm sm:text-base flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
         >
           📍 Ver Endereço
         </button>
@@ -131,7 +131,7 @@ function App() {
           href={linkWhatsapp}
           target="_blank"
           rel="noopener noreferrer"
-          className="fonte-infantil-botao absolute top-[50%] right-[3%] w-[49%] h-[8%] bg-transparent text-amber-950 font-extrabold text-xs sm:text-sm flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10"
+          className="fonte-infantil-botao absolute top-[49.5%] right-[2%] w-[51%] h-[9%] bg-transparent text-amber-950 font-black text-sm sm:text-base flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
         >
           ✅ Confirmar Presença
         </a>
@@ -139,7 +139,7 @@ function App() {
         {/* Placa 3: Lista de Presentes */}
         <button
           onClick={() => setModalPresentes(true)}
-          className="fonte-infantil-botao absolute top-[60.5%] right-[2%] w-[50%] h-[8%] bg-transparent text-amber-950 font-extrabold text-xs sm:text-sm flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10"
+          className="fonte-infantil-botao absolute top-[60%] right-[1%] w-[52%] h-[9%] bg-transparent text-amber-950 font-black text-sm sm:text-base flex items-center justify-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm"
         >
           🎁 Lista de Presentes
         </button>
@@ -148,14 +148,14 @@ function App() {
         {modalEndereco && (
           <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 z-50">
             <div className="bg-white rounded-2xl p-6 max-w-xs w-full text-center shadow-2xl border-4 border-amber-400 animate-scale-up">
-              <h3 className="fonte-infantil-titulo text-xl font-bold text-amber-900 mb-2">📍 Local da Festa</h3>
-              <p className="text-gray-700 text-sm mb-4">
+              <h3 className="fonte-infantil-titulo text-2xl font-bold text-amber-900 mb-2">📍 Local da Festa</h3>
+              <p className="text-gray-700 text-base mb-5">
                 <strong>Salão de Festas Mágico</strong><br />
                 Rua das Flores, nº 123 - Bairro Encantado
               </p>
               <button
                 onClick={() => setModalEndereco(false)}
-                className="fonte-infantil-botao w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 text-lg rounded-xl transition"
+                className="fonte-infantil-botao w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-2.5 text-xl rounded-xl transition"
               >
                 Fechar
               </button>
@@ -167,15 +167,15 @@ function App() {
         {modalPresentes && (
           <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 z-50">
             <div className="bg-white rounded-2xl p-6 max-w-xs w-full text-center shadow-2xl border-4 border-amber-400 animate-scale-up">
-              <h3 className="fonte-infantil-titulo text-xl font-bold text-amber-900 mb-2">🎁 Sugestão de Presentes</h3>
-              <ul className="text-gray-700 text-sm text-left list-disc list-inside mb-4 space-y-1">
+              <h3 className="fonte-infantil-titulo text-2xl font-bold text-amber-900 mb-2">🎁 Sugestão de Presentes</h3>
+              <ul className="text-gray-700 text-base text-left list-disc list-inside mb-5 space-y-1.5">
                 <li>Roupas tamanho: 1 a 2 anos</li>
                 <li>Calçados tamanho: 20/21</li>
                 <li>Brinquedos educativos e pedagógicos</li>
               </ul>
               <button
                 onClick={() => setModalPresentes(false)}
-                className="fonte-infantil-botao w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 text-lg rounded-xl transition"
+                className="fonte-infantil-botao w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-2.5 text-xl rounded-xl transition"
               >
                 Fechar
               </button>
