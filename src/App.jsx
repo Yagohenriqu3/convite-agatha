@@ -106,17 +106,17 @@ function App() {
           <span className="folha folha-5 absolute left-[88%] text-amber-800 text-lg">🍂</span>
         </div>
 
-        {/* BRASÃO VERMELHO DO TOPO (TÍTULO AGATHA FAZ 1 ANO AMPLIADO) */}
-        <div className="absolute top-[5%] left-[14%] right-[14%] h-[14%] text-center flex flex-col justify-center items-center z-10">
-          <span className="fonte-infantil-magica text-yellow-200 text-xs sm:text-sm uppercase tracking-wider font-extrabold drop-shadow">
+        {/* BRASÃO VERMELHO DO TOPO (TÍTULO DESTAQUE GIGANTE) */}
+        <div className="absolute top-[4.5%] left-[10%] right-[10%] h-[16%] text-center flex flex-col justify-center items-center z-10">
+          <span className="fonte-infantil-magica text-yellow-300 text-[10px] sm:text-xs uppercase tracking-widest font-black drop-shadow mb-0.5">
             CONVITE ESPECIAL
           </span>
-          <h1 className="fonte-infantil-titulo text-white font-black text-2xl sm:text-[2em] leading-tight drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] mt-0.5">
+          <h1 className="fonte-infantil-titulo text-white font-black text-3xl sm:text-4xl leading-none drop-shadow-[0_3px_6px_rgba(0,0,0,0.9)] tracking-tight">
             Agatha faz 1 ano
           </h1>
         </div>
 
-        {/* POSICIONAMENTO E FONTE NAS PLACAS */}
+        {/* POSICIONAMENTO NAS PLACAS */}
         
         {/* Placa 1: Ver Endereço */}
         <button
