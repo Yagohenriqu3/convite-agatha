@@ -156,7 +156,7 @@ function App() {
                 
               
               </p>
-<p>Data: 12/12/2026 </p>
+<p>Data: 12/12/2026 às 18:00h</p>
               <p><a href="https://maps.app.goo.gl/Fv1hAGzbokfh58rU7" target='_blank' class='text-blue-600 '>Ver no Mapa</a></p>
               <p> </p>
               <button
