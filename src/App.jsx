@@ -122,7 +122,7 @@ function App() {
         {/* Placa 1: Ver Endereço */}
         <button
           onClick={() => setModalEndereco(true)}
-          className="fonte-infantil-botao absolute top-[39.8%] left-[48%] w-[47%] h-[7.5%] bg-transparent text-amber-950 text-sm sm:text-base font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[39.8%] left-[48%] w-[47%] h-[7.5%] bg-transparent text-amber-950 text-[15.5px] sm:text-base font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
         >
           📍 Ver Endereço
         </button>
@@ -132,7 +132,7 @@ function App() {
           href={linkWhatsapp}
           target="_blank"
           rel="noopener noreferrer"
-          className="fonte-infantil-botao absolute top-[50.3%] left-[44%] w-[51%] h-[7.5%] bg-transparent text-amber-950 text-[13.5px] sm:text-sm font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[50.3%] left-[44%] w-[51%] h-[7.5%] bg-transparent text-amber-950 text-[15.5px] sm:text-sm font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
         >
           ✅ Confirmar Presença
         </a>
@@ -140,7 +140,7 @@ function App() {
         {/* Placa 3: Lista de Presentes */}
         <button
           onClick={() => setModalPresentes(true)}
-          className="fonte-infantil-botao absolute top-[60.0%] left-[43%] w-[51%] h-[7.5%] bg-transparent text-amber-950 text-[13.5px] sm:text-sm font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
+          className="fonte-infantil-botao absolute top-[60.0%] left-[43%] w-[51%] h-[7.5%] bg-transparent text-amber-950 text-[15.5px] sm:text-sm font-black flex items-center justify-center text-center transition-transform active:scale-95 cursor-pointer z-10 drop-shadow-sm leading-none"
         >
           🎁 Sugestão de Presentes
         </button>
